@@ -96,8 +96,10 @@ public class OCRFrameProcessorPlugin: NSObject, FrameProcessorPluginBase {
         let y = frameRect.minY + offsetY
 
         return [
-          "x": frameRect.midX + (frameRect.midX - x),
-          "y": frameRect.midY + (y - frameRect.midY),
+          // "x": frameRect.midX + (frameRect.midX - x),
+          // "y": frameRect.midY + (y - frameRect.midY),
+          "x": frameRect.minX,
+          "y": frameRect.minY,
           "width": frameRect.width,
           "height": frameRect.height,
           "boundingCenterX": frameRect.midX,

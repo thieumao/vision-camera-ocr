@@ -12,7 +12,7 @@ import {
   Alert,
   Clipboard,
 } from 'react-native';
-import { OCRFrame, scanOCR } from 'vision-camera-ocr';
+import { OCRFrame, scanOCR } from 'vision-camera-ocr2';
 import {
   useCameraDevices,
   useFrameProcessor,

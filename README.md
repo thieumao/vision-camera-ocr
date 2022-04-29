@@ -2,14 +2,14 @@
 <img align="right" src="docs/demo.gif">
 </div>
 
-# vision-camera-ocr
+# vision-camera-ocr2
 
 A [VisionCamera](https://github.com/mrousavy/react-native-vision-camera) Frame Processor Plugin to preform text detection on images using [**MLKit Vision** Text Recognition](https://developers.google.com/ml-kit/vision/text-recognition).
 
 ## Installation
 
 ```sh
-yarn add vision-camera-ocr
+yarn add vision-camera-ocr2
 cd ios && pod install
 ```
 

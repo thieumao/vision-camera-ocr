@@ -86,8 +86,10 @@ class OCRFrameProcessorPlugin: FrameProcessorPlugin("scanOCR") {
         val frame = WritableNativeMap()
 
         if (boundingBox != null) {
-            frame.putDouble("x", boundingBox.exactCenterX().toDouble())
-            frame.putDouble("y", boundingBox.exactCenterY().toDouble())
+            // frame.putDouble("x", boundingBox.exactCenterX().toDouble())
+            // frame.putDouble("y", boundingBox.exactCenterY().toDouble())
+            frame.putDouble("x", boundingBox.left.toDouble())
+            frame.putDouble("y", boundingBox.top.toDouble())
             frame.putInt("width", boundingBox.width())
             frame.putInt("height", boundingBox.height())
             frame.putInt("boundingCenterX", boundingBox.centerX())

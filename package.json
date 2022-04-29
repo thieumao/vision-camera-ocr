@@ -1,6 +1,6 @@
 {
-  "name": "vision-camera-ocr",
-  "version": "1.0.0",
+  "name": "vision-camera-ocr2",
+  "version": "1.0.2",
   "description": "VisionCamera Frame Processor Plugin to provide OCR support",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -13,7 +13,7 @@
     "android",
     "ios",
     "cpp",
-    "vision-camera-ocr.podspec",
+    "vision-camera-ocr2.podspec",
     "!lib/typescript/example",
     "!android/build",
     "!ios/build",

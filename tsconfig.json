@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "vision-camera-ocr": ["./src/index"]
+      "vision-camera-ocr2": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
